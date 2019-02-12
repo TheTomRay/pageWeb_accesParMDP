@@ -8,6 +8,20 @@
 </head>
 <body>
     hello;
+    <?php
+        $mdp = $_POST['motdepasse'];
+        if(isset($mdp))
+        {
+            if($mdp=='kangourou')
+            {
+               echo '<p>Bravo, vous êtes bien connecté au serveur de la NASA</p>';
+            }
+            else
+            {
+                echo '<p> Voulez qu\'on vous aide a trouver le mot de passe</p>';
+            }
+        }
+    ?>
 
 </body>
 </html>

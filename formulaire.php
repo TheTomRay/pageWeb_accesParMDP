@@ -14,6 +14,6 @@
         <p>
             <input type="submit" value = "valider">
         </p>
-    </form>
+ </form>
 </body>
 </html>
